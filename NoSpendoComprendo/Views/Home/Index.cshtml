@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>This is the budget tracking application called <i>No Spendo, Comprendo!?</i><br />
+        I created this to keep track of my ridiculous spending habits!</p>
+        <hr />
+        <p> If you want to see your current Expense log, click the Overview button. <br />
+            To create a new entry, click on Create New button below.</p>
+    <a asp-controller="Home" asp-action="Expenses" class="btn btn-primary">Overview</a>
+    <a asp-controller="Home" asp-action="CreateEditExpense" class="btn btn-secondary">Create New</a>
+</div>
